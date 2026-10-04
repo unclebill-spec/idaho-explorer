@@ -26,6 +26,10 @@ Idaho was copied from the Montana/Wyoming code base (Oct 3 2026). Every script i
 12. Tests (state from the folder): `perf/smoke.py BASE TAG`, `perf/test_homes.py`, `perf/test_perm.py`, `perf/test_p4.py`, `perf/loadtime.py URL`, `perf/sw_check.py URL...`; screenshots in `perf/shots/`.
 
 ## Known gaps (Oct 3 2026)
+- Pay: only 4 of 325 permanent postings list pay (Idaho has no pay-transparency law), so the Perm ICU and Perm Step-down/Med-surg Top 10s have no ranked rows; their jobs sit under "See more: N that don't list pay". The shared app.js perm panel still says "about 19% list pay" (KY figure; shared file, not changed).
+- Near-hospital homes: 97 (the per-county limit of 12 and the 10-minute / 10+ bed ER rule leave most counties with none); 1+ acre homes hit the 160 category cap.
+- Zillow detail pages for many Idaho listings give only a whole-number bath total; those count as full baths unless the description mentions a half bath / powder room.
+- Border jobs: Idaho gets 3 permanent + 1 travel RN job from Wyoming; none from Montana within ~15 mi of the line. MT/WY get no Idaho jobs (no Idaho hospital with postings within ~15 mi of their lines).
 - RN employment counts are null (BLS limits). County history layer is empty (no wiki_history.json).
 - St. Luke's Boise has no adult trauma level in the Idaho TSE list (pediatric Level II only): shown without a level, with a note.
 - Not collected (perm jobs): Bingham Memorial (ADP Workforce Now, browser-only), Gritman (careers page answered 202 bot check), Mountain View / Idaho Falls Community (no public board found), Syringa, Steele Memorial, Minidoka, North Canyon, Teton Valley, Valor and other small critical-access hospitals. Pay is rarely listed (St. Luke's, Saint Alphonsus, Kootenai post none).
