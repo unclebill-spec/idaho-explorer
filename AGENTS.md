@@ -35,3 +35,7 @@ Idaho was copied from the Montana/Wyoming code base (Oct 3 2026). Every script i
 - Not collected (perm jobs): Bingham Memorial (ADP Workforce Now, browser-only), Gritman (careers page answered 202 bot check), Mountain View / Idaho Falls Community (no public board found), Syringa, Steele Memorial, Minidoka, North Canyon, Teton Valley, Valor and other small critical-access hospitals. Pay is rarely listed (St. Luke's, Saint Alphonsus, Kootenai post none).
 - HCA jobs come from web search (not every opening; links go to the syndicated posting found).
 - Ada and Canyon counties have no 5+ acre homes under $600k (5+ acre land medians $1.55M / $1.10M).
+
+### 50+ acre lots under $250k (Oct 4, 2026 ~10:31 AM ET, big-land worker)
+- Black-star layer `big-land` (50+ ac, < $250k, land or home), "50+ ac" button, Map key row, card; shared code from the KY explorer (see KY explorer/AGENTS.md, same date). build.py (marker BIGLAND) merges `/workspace/idaho/bigland.json`.
+- Refresh: `/usr/bin/python3 /workspace/bigland/bigland.py ID --refresh` before build/publish (keeps the old file if Zillow blocks). Notes: /workspace/bigland/PROGRESS.md.
