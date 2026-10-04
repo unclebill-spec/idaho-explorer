@@ -39,3 +39,8 @@ Idaho was copied from the Montana/Wyoming code base (Oct 3 2026). Every script i
 ### 50+ acre lots under $250k (Oct 4, 2026 ~10:31 AM ET, big-land worker)
 - Black-star layer `big-land` (50+ ac, < $250k, land or home), "50+ ac" button, Map key row, card; shared code from the KY explorer (see KY explorer/AGENTS.md, same date). build.py (marker BIGLAND) merges `/workspace/idaho/bigland.json`.
 - Refresh: `/usr/bin/python3 /workspace/bigland/bigland.py ID --refresh` before build/publish (keeps the old file if Zillow blocks). Notes: /workspace/bigland/PROGRESS.md.
+
+### Caves and waterfalls on the property (Oct 4, 2026, cave/falls worker)
+- Bill, Oct 4 2:12 PM: "add any properties that have a cave or waterfall to the maps, have a small waterfall for the waterfall and a small bat for the caves, the flying type of bat".
+- Layer `cvf` (categories `cave` / `falls`; `cf` = kinds, `cfq` = the listing's own words): flying-bat pin for caves (also used when a listing has both), waterfall pin, groups, "Cave" / "Falls" buttons (hidden when the map has none), Map key row, card. A listing already on the map in another category keeps it and gets `cf`/`cfq` (shows under both). Shared code from the KY explorer (KY explorer/AGENTS.md, same date). build.py (marker CAVEFALLS) merges `/workspace/idaho/cavefalls.json`; border items come from make_border.py (`CFCAP`).
+- Refresh: `/usr/bin/python3 /workspace/cavefalls/cavefalls.py ID --refresh` before build/publish (Zillow keyword search + listing text check + dedupe of the same land listed twice; keeps the old file if Zillow blocks; `--offline` re-checks from the cache). Notes: /workspace/cavefalls/PROGRESS.md.
