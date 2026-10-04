@@ -1,0 +1,1 @@
+KYXD("_b-wallowa-county-or",{"school":{"bor-s410687001142":{"addr":"78976 Imnaha Hwy","phone":"(541) 577-3119","grades":"KG–08","level":"Elementary","nces":"410687001142","levels":{},"bst":"OR","bmi":14.0,"bco":"Wallowa County, OR","src":"NCES Common Core of Data 2024-2025 (school directory; no state grade on this map)"}}});
