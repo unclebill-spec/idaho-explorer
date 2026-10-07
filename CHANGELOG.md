@@ -1,6 +1,9 @@
 # Idaho Explorer — change log
 
 Newest first. Times are ET.
+## 2026-10-07
+- 16:55 ET: Listings refresh: +10 new (+1 relisted under a new Zillow page), -8 off-market, 16 price drops; 50+ ac 8, waterfalls 5; bargains refreshed (3 in, 3 out); 320 perm RN jobs (2026-10-07)
+
 ## 2026-10-05
 - 23:12 ET: Add North Carolina to the state switcher (new North Carolina Explorer); shared Anna code: per-state wording + estimated-pay labels
 
