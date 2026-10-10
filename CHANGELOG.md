@@ -1,6 +1,9 @@
 # Idaho Explorer — change log
 
 Newest first. Times are ET.
+## 2026-10-10
+- 08:03 ET: Listings refresh r2: +4 new, -5 sold/off-market, 7 price drops, 7 price changes; bigland/cavefalls/perm refreshed (r2-2026-10-10)
+
 ## 2026-10-08
 - 00:20 ET: New right-side 'Hospitals' filter button: shows every hospital on the map, including hospitals within ~15 mi over the state line, with the icons they already have. While it is on, hospitals are drawn larger and on top, every trauma center sits above every other hospital (single pins and groups), and other pins shrink underneath. Hidden in Anna mode. Shared app code, same on every map.
 
