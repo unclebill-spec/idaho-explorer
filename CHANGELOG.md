@@ -1,6 +1,9 @@
 # Idaho Explorer — change log
 
 Newest first. Times are ET.
+## 2026-10-11
+- 09:34 ET: Listings refresh r3: +0 new, -1 sold/off-market, 3 price drops, 3 price changes; bigland/cavefalls/perm refreshed (r3-2026-10-11)
+
 ## 2026-10-10
 - 08:03 ET: Listings refresh r2: +4 new, -5 sold/off-market, 7 price drops, 7 price changes; bigland/cavefalls/perm refreshed (r2-2026-10-10)
 
