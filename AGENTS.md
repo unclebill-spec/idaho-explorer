@@ -1,3 +1,5 @@
+> **Before any work here:** read /workspace/RESOURCES.md (team rules), your /workspace/bot-tools/<slug>.md tool list, and the game order in /workspace/NAMES.md. (Will, Nov 1, 2026)
+
 # Idaho Explorer — agent handoff
 
 Static Leaflet map for a nurse household, the same shared app as the Kentucky, Tennessee, Massachusetts, Maine, Vermont, Montana and Wyoming Explorers (`app.js`, `areas.js`, `perm.js`, `profiles.js`, `extras.js`, `style.css` are byte-identical copies of `/workspace/kentucky/explorer/*`; another worker edits them there, so run `scripts/sync_shared.sh` right before every build/publish and log any shared-file edit in KY `explorer/AGENTS.md`). `sw.js` differs only in its cache prefix (`idx-`). Idaho-specific settings live in `explorer/build.py` `STATE` (ported from VT by `scripts/port_build.py`, idempotent, marker PORT_ST).
