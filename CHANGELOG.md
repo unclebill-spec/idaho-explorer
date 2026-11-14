@@ -1,6 +1,9 @@
 # Idaho Explorer — change log
 
 Newest first. Times are ET.
+## 2026-11-14
+- 03:02 ET: Add Houses (no-land homes) and Towns (townhomes/apartments/condos) layers data
+
 ## 2026-11-12
 - 06:24 ET: Listings refresh r23: +0 new, -3 sold/off-market, 5 price drops, 5 price changes; bigland/cavefalls/perm refreshed (r23-2026-11-12)
 
