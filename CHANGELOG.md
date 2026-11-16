@@ -1,6 +1,9 @@
 # Idaho Explorer — change log
 
 Newest first. Times are ET.
+## 2026-11-16
+- 11:23 ET: State switcher: add Nebraska, South Dakota, North Dakota
+
 ## 2026-11-14
 - 14:56 ET: Listings refresh r24: +0 new, -4 sold/off-market, 8 price drops, 8 price changes; bigland/cavefalls/perm refreshed (r24-2026-11-14)
 - 03:02 ET: Add Houses (no-land homes) and Towns (townhomes/apartments/condos) layers data
